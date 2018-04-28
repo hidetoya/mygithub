@@ -20,12 +20,14 @@ th1|th2|th3
 td1-1|td1-2|td1-3
 td2-1|td2-2|td2-3
 
+
+### text align
+
 |ここが |ヘッダに|なる   |
 |:-----:|:-------|------:|
 |center |left    |right  |
 |4      |5       |6      |
 
-### text align
     |ここが |ヘッダに|なる   |
     |:-----:|:-------|------:|
     |center |left    |right  |
