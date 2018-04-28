@@ -1,9 +1,5 @@
-◆《参考》高機能エディタ『VScode』をもっと便利にするおすすめの使い方 - プロクラシスト
-http://www.procrasist.com/entry/vscode-fallinlove
 
-
-# [Markdown の基本言語サポート][note1]
-
+# Markdownメモ
 
 ## bold (VSC)
 **text**
@@ -19,7 +15,8 @@ http://www.procrasist.com/entry/vscode-fallinlove
 
 ## heading (VSC)
 \# 
-VSCでは \# の後空白が必須
+
+VSC, github.com では \# の後空白が必須。Qiitaは不要らしい。
 
 ## Tables (GFM)
 prefix  |body
@@ -29,6 +26,7 @@ italic	|*text*
 quote		|> text
 code		|`text`
 heading	|#
+
 プレビューは GitHub Flavored Markdown の Tablesに対応
 
 ## Links (VSC:"link")
@@ -36,6 +34,9 @@ heading	|#
 
 ## Reference-style links
 [Goolgeリンク][google]
+...
+
+[google]: https://www.google.co.jp/
 
 ## Images (VSC:"image")
 <!-- 
@@ -70,9 +71,13 @@ for example:
 ----------
 ↑この上は空行が必須(でないと見出しと判断されてしまう)
 
-[note1]: file:C:\Program%20Files\Microsoft%20VS%20Code\resources\app\extensions\markdown-basics\snippets\markdown.json
-[google]: https://www.google.co.jp/
-
 ## emoji
 :smile:
 さすがに VSC でも未対応
+
+## 参考
+* VSC: [Markdown の基本言語サポート][note1]
+[note1]: file:C:\Program%20Files\Microsoft%20VS%20Code\resources\app\extensions\markdown-basics\snippets\markdown.json
+* 高機能エディタ『VScode』をもっと便利にするおすすめの使い方 - プロクラシスト
+http://www.procrasist.com/entry/vscode-fallinlove
+* [github\-git\-cheat\-sheet (英語, pdf)](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
